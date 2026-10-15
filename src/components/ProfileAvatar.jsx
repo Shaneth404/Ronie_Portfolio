@@ -4,7 +4,7 @@ import { ShieldCheck, CheckCircle2 } from 'lucide-react';
 export default function ProfileAvatar({ name = "Ronie Jr. C. Provedencia", initials = "RP" }) {
   // Support an optional user-provided profile picture if placed in public/profile.jpg or assets
   const [imgError, setImgError] = useState(false);
-  const profilePhotoPath = "/profile.jpg";
+  const profilePhotoPath = "/profile.png";
 
   return (
     <div className="profile-avatar-container" aria-label={`Profile representation for ${name}`}>
